@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我拍我秀首页</title>
+    <link rel="stylesheet" href="./newIndex/css/index.css">
+    <link rel="stylesheet" href="./newIndex/css/loginRegister.css">
+    <link rel="stylesheet" href="./newIndex/css/bootstrap.css">
+    <link rel="stylesheet" href="./newIndex/css/common.css">
+    <link rel="stylesheet" href="./newIndex/css/font-awesome.css">
+    <link rel="shortcut icon" href="./newIndex/images/wpwx.ico"/>
+    <script src="./newIndex/js/jquery.js"></script>
+
+    <style>
+        .tFixed {
+            position: fixed;
+            top: 0px;
+            left: 0;
+            right: 0;
+            z-index: 1099999990;
+            background: white;
+            box-shadow: 0 0 3px 0 #CCCCCC;
+
+        }
+    </style>
+</head>
+<body>
+<div id="page">
+    <!--header-->
+    <div id="header">
+        <div class="topbar">
+            <div class="topbar_conter ">
+                <div class="site_act">
+                    <a href="index.html" class="index_show" id="index_show"><i class="icon_try">&#xe684;</i> 首页</a>
+                    <!-- <a href="http://www.wopaiwoshow.com/" id="favorites_show" class="favorites_show" title="我拍我秀网"
+                       rel="sidebar"><i class="icon_try">&#xe683;</i> 收藏本站</a> -->
+                </div>
+                <div class="user_act">
+                    <ul>
+                        <li><a href="javaScript:void(0)" rel="nofollow" class="show_login_modal">登录</a> | <a
+                                href="javaScript:void(0)" rel="nofollow" class="show_register_modal">注册</a></li>
+                        <li><a href="http://www.wopaiwoshow.com/" target="_blank" rel="nofollow">微信客服<em
+                                class="icon_try">&#xe68a;</em></a>
+                            <div class="action_panel"><img src="./newIndex/images/EWM7.jpg" alt="" width="80"
+                                                           height="80"/>
+                            </div>
+                        </li>
+                        <li><a href="#">商家中心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="recruit_header">
+            <div class="recruit_header_wrap">
+                <div class="recruit_logo">
+                    <a href="http://www.wopaiwoshow.com">
+                        <img src="./newIndex/images/img/log.png" alt=""/>
+                        <span>让天下没有难做的电商</span>
+                    </a>
+                </div>
+                <div class="recruit_nav">
+                    <ul>
+                        <li><a href="http://www.wopaiwoshow.com" class="active"> 首页</a></li>
+                        <li><a href="http://www.wopaiwoshow.com"> 商家管理</a></li>
+                        <li><a href="http://www.wopaiwoshow.com">会员管理</a></li>
+                        <li><a href="http://www.wopaiwoshow.com">充值服务</a></li>
+                        <li><a href="http://www.wopaiwoshow.com">模特大厅</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--大墙纸-->
+    <div class="b-box">
+        <img src="./newIndex/images/bn/bn1.jpg">
+        <img src="./newIndex/images/bn/bn2.jpg">
+        <img src="./newIndex/images/bn/bn3.jpg">
+    </div>
+    <!--三栏目-->
+    <div class="solution-content">
+        <div class="wrap">
+            <div class="solution-title">我拍我秀一站式电商营销服务解决方案
+                <p>消费者的需求,淘宝的规则,竞争的环境。所以我们必须去这么做。</p>
+            </div>
+            <div class="solution-list">
+                <ul>
+                    <li class="list-orange" style="background:#ff997a">
+                        <div class="list-title">消费者喜欢</div>
+                        <div class="box-img"><img src="./newIndex/images/img/three.1.jpg"/></div>
+                        <div class="list-item"><p>根据艾瑞数据，88%的消费者在购买产品的时候，愿意看带有图片的评价，其中99%的女性都必看。</p>
+                        </div>
+                    </li>
+                    <li class="list-blue " style="background:#7eb9fa">
+                        <div class="list-title">淘宝规则推荐</div>
+                        <div class="box-img"><img src="./newIndex/images/img/three.2.jpg"/></div>
+                        <div class="list-item"><p>根据淘宝的评价排序规则为实时排序，排序的原则，是让最具有价值的评价优先展示在消费者面前。</p>
+                        </div>
+                    </li>
+                    <li class="list-pink" style="background:#ff929f">
+                        <div class="list-title">竞争对手在做</div>
+                        <div class="box-img"><img src="./newIndex/images/img/three.3.jpg"/></div>
+                        <div class="list-item"><p>同款的竞争对手，大家都在做优质的买家秀晒图，而你不做，则订单都会流失到竞争者去成交。</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--上下tab栏目banner -6栏目-->
+    <div class="banner" style="background-color:#FF4A91">
+        <div class="banner-wrap">
+            <div class="banner-menu">
+                <div class="banner-title">产品服务</div>
+                <a href="javaScript:void(0)" class="active"><span><i>&#xe749;</i>新品上架</span></a>
+                <a href="javaScript:void(0)"><span><i>&#xe748;</i>维护爆款</span></a>
+                <a href="javaScript:void(0)"><span><i>&#xe74a;</i>促销活动</span></a>
+                <a href="javaScript:void(0)"><span><i>&#xe74d;</i>标签池</span></a>
+                <a href="javaScript:void(0)"><span><i>&#xe74b;</i>试客体验</span></a>
+                <a href="javaScript:void(0)" target=""><span><i>&#xe74b</i>视频拍摄</span></a>
+            </div>
+            <ul>
+                <li style="background:#FF4A91;" class="active">
+                    <div class="banner-content">
+                        <a href="javaScript:void(0)" class="banner-title">新品上架</a>
+                        <div class="banner-subhead">宝贝处于新品时期</div>
+                        <div class="product-info">宝贝处于新品时期,宝贝的销量很低，信任度比较低，难以获得消费者的信任，有优质的买家秀，则肯定比同一批，
+                            同品类的新品更具备竞争优势，所以新品时期，优质的买家秀是必不可少的。
+                        </div>
+                        <div class="banner-btn">
+                            <a href="javaScript:void(0)" class="apply-btn show_register_modal" target=""
+                               style='color:#FF4A91'>报名入驻</a>
+                            <a href="javaScript:void(0)" class="adv-btn" target="_blank">合作咨询</a>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2793672899&amp;site=qq&amp;menu=yes" target=""><img
+                                src="./newIndex/images/bn/5-1.png"/></a>
+                    </div>
+                </li>
+                <li style="background:#9567ff;;">
+                    <div class="banner-content">
+                        <a href="javaScript:void(0)" class="banner-title">维护爆款</a>
+                        <div class="banner-subhead">宝贝处于爆款时期</div>
+                        <div class="product-info">
+                            因为淘宝的规则排序是让有价值的评价，优先展示。那么我们需要防患于然。如何防患。就是坚持每天1-2买家秀，一旦真的遇到恶意差评，即立刻邀请模特追评，好评即可快速置顶。
+                        </div>
+                        <div class="banner-btn">
+                            <a href="javaScript:void(0)" class="apply-btn show_register_modal" target=""
+                               style='color:#9567ff;'>报名入驻</a>
+                            <a href="javaScript:void(0)" class="adv-btn" target="">合作咨询</a>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2793672899&amp;site=qq&amp;menu=yes" target=""><img
+                                src="./newIndex/images/bn/5-2.png"/></a>
+                    </div>
+                </li>
+                <li style="background:#FF6780;">
+                    <div class="banner-content">
+                        <a href="javaScript:void(0)" class="banner-title">促销活动</a>
+                        <div class="banner-subhead">宝贝处于活动时期</div>
+                        <div class="product-info">当我们要有一场大活动的时候，很多时候消费者购买是冲动型的，
+                            所以这个时候，如果能提前布局好中差评的买家秀营销和好评买家秀，对转化率提升也是一个利器。所以我拍我秀就是一个很好的选择。
+                        </div>
+                        <div class="banner-btn">
+                            <a href="javaScript:void(0)" class="apply-btn show_register_modal" target=""
+                               style='color:#FF6780'>报名入驻</a>
+                            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2793672899&amp;site=qq&amp;menu=yes"
+                               class="adv-btn" target="_blank">合作咨询</a>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <a href="javaScript:void(0)" target=""><img src="./newIndex/images/bn/5-3.png"/></a>
+                    </div>
+                </li>
+                <li style="background:#2DCC70;">
+                    <div class="banner-content">
+                        <a href="javaScript:void(0)" class="banner-title">个性标签</a>
+                        <div class="banner-subhead">店铺千人千面人气权重解决方案</div>
+                        <div class="product-info">
+                            发布标签池任务，个性化选择全国不同IP账号进店浏览宝贝，在获得低成本精准流量的同时，全面提升店铺宝贝的人气排名，优化单品排名，最后辅助收藏加购，合理控制转化率，增加店铺权重。
+                        </div>
+                        <div class="banner-btn">
+                            <a href="javaScript:void(0)" class="apply-btn show_register_modal" target="_blank"
+                               style='color:#2DCC70'>详细了解</a>
+                            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2793672899&amp;site=qq&amp;menu=yes"
+                               class="adv-btn" target="_blank">合作咨询</a>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <a href="javaScript:void(0)" target="_blank"><img src="./newIndex/images/bn/5-4.png"/></a>
+                    </div>
+                </li>
+                <li style="background:#ff7369;">
+                    <div class="banner-content">
+                        <a href="javaScript:void(0)" class="banner-title">试客体验报告</a>
+                        <div class="banner-subhead">店铺搜索优化解决方案</div>
+                        <div class="product-info">精准搜索等个性化真实进店流程，安全用户保证，自主审核，收藏 加购，帮助店铺新品破零，快速提升店铺DSR</div>
+                        <div class="banner-btn">
+                            <a href="javaScript:void(0)" class="apply-btn show_register_modal" target=""
+                               style='color:#ff7369'>报名入驻</a>
+                            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2793672899&amp;site=qq&amp;menu=yes"
+                               class="adv-btn" target="_blank">合作咨询</a>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <a href="javaScript:void(0)" target=""><img src="./newIndex/images/bn/5-5.png"/></a>
+                    </div>
+                </li>
+                <li style="background:#eaa34d;">
+                    <div class="banner-content">
+                        <a href="javaScript:void(0)" class="banner-title">视频拍摄</a>
+                        <div class="banner-subhead">海量高颜值达人</div>
+                        <div class="product-info">最海量高颜值达人可选，美妆、搭配、美食达人应有尽有，为您量身打造优质短视频及图文买家秀内容，提升曝光及转化率。</div>
+                        <div class="banner-btn">
+                            <a href="javaScript:void(0)" class="apply-btn show_register_modal" target=""
+                               style='color:#9567ff;'>了解详情</a>
+                            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2793672899&amp;site=qq&amp;menu=yes"
+                               class="adv-btn" target="">合作咨询</a>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <a href="javaScript:void(0)" target=""><img src="./newIndex/images/bn/5-6.png"/></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--极致的买家秀-->
+    <div class="solution-content" id="jz">
+        <div class="wrap">
+            <div class="solution-title">我拍我秀是"拍(高权重)+秀(高转化)"
+                <p>拍：让符合店铺购买人群的模特来体验，例如：性别，年龄，地区</p>
+                <p>秀：拍摄风格与店铺风格类似，能够在体验端拓宽产品的使用场景</p>
+            </div>
+            <div class="img_box"></div>
+        </div>
+    </div>
+    <!--网红生态转圈-->
+    <div class="zoology">
+        <div class="wrap">
+            <div class="zoology-logo-left first-logo"><img src="./newIndex/images/img/001.jpg"/><span>短视频拍摄</span></div>
+            <div class="zoology-logo-left second-logo"><img src="./newIndex/images/img/002.jpg"/><span>买家秀拍摄</span>
+            </div>
+            <div class="zoology-logo-left third-logo"><img src="./newIndex/images/img/003.jpg"/><span>试用引流</span></div>
+            <div class="zoology-logo-left fourth-logo"><img src="./newIndex/images/img/004.jpg"/><span>二次营销</span></div>
+            <div class="zoology-logo-right first-logo"><span>网红直播</span><img src="./newIndex/images/img/005.jpg"/></div>
+            <div class="zoology-logo-right second-logo"><span>达人推广</span><img src="./newIndex/images/img/006.jpg"/>
+            </div>
+            <div class="zoology-logo-right third-logo"><span>名师课堂</span><img src="./newIndex/images/img/007.jpg"/></div>
+            <div class="zoology-logo-right fourth-logo"><span>营销活动</span><img src="./newIndex/images/img/008.jpg"/>
+            </div>
+            <div class="zoology-bg"
+                 style="background:url('./newIndex/images/zoology_logo_bg.png') no-repeat; background-size:460px;"></div>
+        </div>
+    </div>
+    <!--常见问题-->
+    <div class="solution-content" id="faq">
+        <div class="wrap">
+            <div class="solution-title">
+                常见问题
+            </div>
+            <div class="description small_margin">
+                <div class="red question">
+                    1、你们的模特来源是哪里？
+                </div>
+                <div class="black answer">
+                    答：我们的模特都是在学校、车展、礼仪接待等场合进行线下招募的，我拍我秀网通过线上硬广以及线下地推和口碑传播，已经发展到了3万个淘气值超过1000分的优质模特
+                </div>
+            </div>
+            <div class="description small_margin">
+                <div class="red question">
+                    2、如何发布拍我拍我秀体验？
+                </div>
+                <div class="black answer">
+                    答：
+                    登录
+                    成功后，左侧菜单即有（我拍我秀体验管理），点击发布体验填写宝贝资料，等待管理员审核体验通过后，则体验会定时进行投放，详情可登录后联系右侧客服中心。
+                </div>
+            </div>
+            <div class="description small_margin">
+                <div class="red question">
+                    3、拍摄我拍我秀图片质量如何？
+                </div>
+                <div class="black answer">
+                    答：我拍我秀网的3万个模特都是经过层层筛选培训后才成为正式模特，获得接单资格，无论是颜值，还是拍摄水平都是业内顶尖，并且发布体验时还可以要求拍摄搭配以及拍摄场景，质量有保障。
+                </div>
+            </div>
+            <div class="description small_margin">
+                <div class="red question">
+                    4、拍摄的我拍我秀不满意怎么办？
+                </div>
+                <div class="black answer">
+                    答：模特提交图片后，商家如若对图片质量不满意，可发起重拍要求，每个体验都有一次发起重拍的机会，并且可发起售后，由售后客服进行介入处理，充分保障商家的权益。
+                </div>
+            </div>
+            <div class="description small_margin">
+                <div class="red question">
+                    5、如何成为会员？
+                </div>
+                <div class="black answer">
+                    答：点击旁边“商家注册”，填写资料注册成功后进行完善资料，在网站内进行充值金币进行开通权限，即可成为我拍我秀网会员。
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--咨询侧面-->
+    <div class="free-consult">
+        <div class="consult-left">
+            <i>&#xe74e;</i>免费咨询
+        </div>
+        <div class="consult-content">
+            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2793672899&amp;site=qq&amp;menu=yes">
+                <img src="./newIndex/images/recruit_qq.png"/>QQ咨询</a>
+            <span class="qq">QQ：2793672899</span>
+            <div class="cooperation">
+                <span>合作咨询:</span>
+                <span><b>0571-85809529</b></span>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="recruit-footer">
+        <div class="recruit-footer-wrap">
+            <div class="about-us">
+                <div class="footer-title">关于我拍我秀</div>
+                <ul>
+                    <li><a href="javaScript:void(0)" target="_blank">关于我们</a></li>
+                    <li><a href="javaScript:void(0)" target="_blank">合作联系</a></li>
+                    <li><a href="javaScript:void(0)" target="_blank">加入我们</a></li>
+                </ul>
+            </div>
+            <div class="product-service">
+                <div class="footer-title">产品服务</div>
+                <ul>
+                    <li><a href="javaScript:void(0)">买家秀</a></li>
+                    <li><a href="javaScript:void(0)">免费试用</a></li>
+                    <li><a href="javaScript:void(0)">了解详情</a></li>
+                    <li><a href="javaScript:void(0)">成为会员</a></li>
+                    <li><a href="javaScript:void(0)">用户协议</a></li>
+                </ul>
+            </div>
+            <div class="consult-service">
+                <div class="footer-title">咨询客服</div>
+                <ul>
+                    <li>联系电话：2793672899</li>
+                    <li>客服QQ： 2793672899</li>
+                    <li><span>周一到周日 9:00 ~ 18:00</span></li>
+                </ul>
+            </div>
+            <div class="footer-erweima">
+                <img src="./newIndex/images/EWM.jpg"/>
+                <span>扫码加客服，了解更多</span>
+            </div>
+            <div class="copyright">
+                ©2018 我拍我秀网 渝ICP备18003932号-1
+            </div>
+        </div>
+    </div>
+    <!--登录-->
+    <form id="login_modal" class="modal">
+        <div class="container_1">
+            <div class="title">
+                商家登录
+                <div class="close_1">
+
+                </div>
+            </div>
+            <div class="content_1">
+                <div class="input name">
+                    <input name="mobileNo" type="text" class="number" maxlength="11" placeholder="请输入手机号"/>
+                </div>
+                <div class="input password">
+                    <input name="password" type="password" class="enOrNum" placeholder="请输入密码"/>
+                </div>
+                <div class="input small verify_code">
+                    <input name="verify_code" type="text" maxlength="4" placeholder="请输入验证码"
+                    />
+                </div>
+                <img class="check_code" src="./newIndex/images/icon/captcha.png" alt=""/>
+                <span class="refresh_code">
+                刷新
+            </span>
+                <div style="padding-top: 10px; margin-bottom: 5px">
+                    登录即代表阅读并同意
+                    <a target="_blank" href="/front/seller/duty.html" style="color: #049eff!important;">《服务协议》</a>
+                </div>
+                <div class="login button" style="width: inherit;margin: 5px auto;">
+                    登录
+                </div>
+                <div class="action" style="height: 20px;padding-top: 5px;">
+                    <a href="/front/seller/forget_password.html"
+                       style="color: #333 !important;float: left;margin: 0;">忘记密码</a>
+                    <span class=" close_1 show_register_modal blue" style="float: right;margin: 0;">
+                    去注册&gt;
+                </span>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!--注册-->
+    <form id="register_modal" class="modal">
+        <div class="container_1 h200">
+            <div class="title">
+                新商家注册
+                <div class="close_1"></div>
+            </div>
+            <div class="content_1">
+                <div class="input">
+                <span>
+                    <span class="red">
+                        *
+                    </span>
+                    手机号：
+                </span>
+                    <input name="mobileNo" class="number" maxlength="11" type="text"/>
+                </div>
+                <div class="input small">
+                <span>
+                    <span class="red">
+                        *
+                    </span>
+                    识别码：
+                </span>
+                    <input name="message_verify_code" maxlength="4"/>
+                </div>
+                <div class="message_verify_code">
+                    <img class="check_code" src="/portal/customer/captcha.html"/>
+                    <span class="refresh_code">
+                    刷新
+                </span>
+                </div>
+                <div class="input small">
+                <span>
+                    <span class="red">
+                        *
+                    </span>
+                    验证码：
+                </span>
+                    <input name="phone_message" class="number" disabled type="text"/>
+                </div>
+                <div class="get_code">
+                    获取验证码
+                </div>
+                <div class="input">
+                <span>
+                    <span class="red">
+                        *
+                    </span>
+                    设置密码：
+                </span>
+                    <input name="password" class="enOrNum" type="password"/>
+                </div>
+                <div class="input">
+                <span>
+                    <span class="red">
+                        *
+                    </span>
+                    重复密码：
+                </span>
+                    <input name="_password" class="enOrNum" type="password"/>
+                </div>
+                <div class="input">
+                <span>
+                    <span class="red">
+                        *
+                    </span>
+                    微信号：
+                </span>
+                    <input name="wechat" class="enOrNum" type="text"/>
+                </div>
+                <div class="input">
+                <span>
+                    <span class="red">
+                        *
+                    </span>
+                    Q Q号：
+                </span>
+                    <input name="qq" type="text" class="number"/>
+                </div>
+                <div class="center aligned checkbox">
+                    <input type="checkbox" name="agree" id="register_agree"/>
+                    <label for="register_agree">
+                        我已阅读并且同意
+                        <a target="_blank" href="/front/seller/duty.html" class="blue">《服务协议》</a>
+                    </label>
+                </div>
+                <div class="register button">
+                    立即注册
+                </div>
+                <div class="action">
+                <span>
+                    已有帐号，
+                    <span class="blue close_1 show_login_modal">
+                        立即登录
+                    </span>
+                </span>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<script>
+    $(function () {
+        let $imgList = $('div.b-box img');
+        let randomNumber = parseInt(Math.random()*3);
+
+        $imgList.eq(randomNumber).fadeIn().siblings().fadeOut();
+    })
+
+
+</script>
+
+<script>
+    $(function () {
+        // $("body").on("input keyup", ".number", function () {
+        //     $(this).val($(this).val().replace(/\D/g, ''));
+        // });
+        // invite
+        // var command_user = "";
+        // if (command_user) {
+        //     localStorage.setItem('command_user', command_user);
+        // } else {
+        //     command_user = localStorage.getItem('command_user') || '';
+        // }
+
+        // banner
+        // var $container = $('#container');
+        // $('.banner .close_1').on('click', function () {
+        //     $(this).parent().remove();
+        //     $container.css('marginTop', 100)
+        // });
+
+        // 弹出层
+        var $login_modal = $('#login_modal');
+        var $register_modal = $('#register_modal');
+        $('.to_register').on('click', function () {
+            $body.animate({
+                scrollTop: $("#register").offset().top - $container.offset().top - 60
+            }, 500);
+        });
+        $('.show_register_modal').on('click', function () {
+            $register_modal.find('.check_code').attr('src', '/portal/customer/captcha.html?csrf=date=' + new Date().getTime());
+            $register_modal.fadeIn();
+        });
+        $('.show_login_modal').on('click', function () {
+            $login_modal.find('.check_code').attr('src', '/portal/customer/captcha.html?csrf=date=' + new Date().getTime());
+            $login_modal.fadeIn();
+        });
+        $('.to_top').on('click', function () {
+            $body.animate({
+                scrollTop: 0
+            }, 500);
+        });
+        $('.modal .close_1').on('click', function () {
+            $(this).parents('.modal').fadeOut();
+        });
+
+        //  收藏
+        $('#topbar .collect').on('click', function () {
+            var url = window.location;
+            var title = document.title;
+            if (window.external && 'addFavorite' in window.external) { //IE使用
+                window.external.addFavorite(url, title);
+                return true;
+            } else if (window.sidebar && window.sidebar.addPanel) { // Firefox23之前使用
+                window.sidebar.addPanel(title, url, '');
+                return true;
+            } else if (/Firefox/.test(window.navigator.userAgent) || window.opera && window.print) { //早期的opera和最新的Firefox
+                dom.setAttribute('href', url);
+                return true;
+            } else { //chrome和safari中没有接口，手动添加
+                alert('请使用 ' + (navigator.userAgent.toLowerCase().indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL') + ' + D 添加本页到收藏夹！');
+                return false;
+            }
+        })
+
+        /**
+         * 查询用户是否已登录
+         */
+        $.get('/portal/customer/seller/logged.html').then(result => {
+            if (result.data.logged) {
+                $('#topbar .show_login_modal,#topbar .show_register_modal').hide();
+                $('#topbar .toUserIndex').show();
+            }
+        });
+
+        // #登录相关
+        var $check_code = $('.check_code');
+        $('.refresh_code,.check_code').on('click', function () {
+            $check_code.attr('src', '/portal/customer/captcha.html?csrf=date=' + new Date().getTime());
+        });
+        $login_modal.find('.login.button').on('click', function () {
+            var data = $login_modal.serializeObject();
+            if (isEmpty(data.mobileNo)) {
+                error("请输入手机号码");
+                return false;
+            }
+            if (!checkMobile(data.mobileNo)) {
+                error("手机号格式错误");
+                return false;
+            }
+            if (isEmpty(data.password)) {
+                error("请输入密码");
+                return false;
+            }
+            if (isEmpty(data.verify_code)) {
+                error("请输入图形验证码");
+                return false;
+            }
+            var $this = $(this);
+            localStorage.setItem('phone', $('#login_modal input[name=mobileNo]').val())
+            $this.addClass('disabled');
+            $.ajax({
+                url: '/portal/customer/seller/login.html',
+                method: 'get',
+                data: $login_modal.serializeObject(),
+                success: function (result) {
+                    if (result.success) {
+                        localStorage.setItem('noticePopup', 'UNREAD'); //每次登录成功之后将公告弹窗设为未读状态
+                        setTimeout(() => {
+                            window.location.href = '/front/seller/member/index.html#my-account';
+                        }, 100);
+                    } else error(result.message), $this.removeClass('disabled');
+                },
+                error: function (message) {
+                    $this.removeClass('disabled');
+                    reason = message.getResponseHeader('X-Error-Description');
+                    reason = decodeURIComponent(reason);
+                    error(reason);
+                }
+            })
+        });
+        // #end
+        // #注册相关
+        var $get_code = $('.get_code');
+        var verify_code_timer = function ($ele) {
+            second = 60;
+            $ele.addClass('disabled').text(second + '秒重新发送');
+            timer = setInterval(function () {
+                second--;
+                if (second) {
+                    $ele.text(second + '秒重新发送');
+                } else {
+                    $ele.removeClass('disabled').text('重新获取');
+                    clearInterval(timer);
+                }
+            }, 1000)
+        };
+
+        $get_code.on('click', function () {
+            var $this = $(this);
+            var phone = $this.parents('form').find('input[name=mobileNo]').val();
+            var verify_code = $this.parents('form').find('input[name=message_verify_code]').val();
+            if (isEmpty(phone)) {
+                error('请输入手机号');
+                return false;
+            }
+            if (!checkMobile(phone)) {
+                error('手机号格式错误');
+                return false;
+            }
+            if (isEmpty(verify_code)) {
+                error('请输入图形验证码');
+                return false;
+            }
+            $this.addClass('disabled');
+            $.ajax({
+                url: '/portal/customer/register/smsCaptcha.html?phone=' + phone + '&verifyCode=' + verify_code + '&type=seller',
+                success: function () {
+                    success('验证码发送成功', function () {
+                        $('input[name="phone_message"]').removeAttr("disabled");
+                        verify_code_timer($this);
+                    });
+                },
+                error: function (message) {
+                    $this.removeClass('disabled');
+                    reason = message.getResponseHeader('X-Error-Description');
+                    reason = decodeURIComponent(reason);
+                    error(reason);
+                }
+            })
+        });
+        $('#register .submit, #register_modal .button').on('click', function () {
+            var $this = $(this);
+            var data = $this.parents('form').serializeObject();
+            if (data.mobileNo.trim() == "") {
+                error('请输入电话号码');
+                $this.removeClass('disabled');
+                return false;
+            }
+            if (!checkMobile(data.mobileNo.trim())) {
+                error('手机号格式错误');
+                $this.removeClass('disabled');
+                return false;
+            }
+            if (isEmpty(data.message_verify_code)) {
+                error('图形识别码不能为空');
+                $this.removeClass('disabled');
+                return false;
+            }
+            if (isEmpty($("[name='phone_message']").val())) {
+                error('短信识别码不能为空');
+                $this.removeClass('disabled');
+                return false;
+            }
+            if (data.password.trim() == "") {
+                error('密码不能为空');
+                $this.removeClass('disabled');
+                return false;
+            }
+            if (data.password != data._password) {
+                error('重复密码输入不一致');
+                return false;
+            }
+            if (isEmpty(data.wechat)) {
+                error('微信号不能为空');
+                $this.removeClass('disabled');
+                return false;
+            }
+            if (isEmpty(data.qq)) {
+                error('QQ号不能为空');
+                $this.removeClass('disabled');
+                return false;
+            }
+            if (!data.agree) {
+                error(' 请同意平台 "服务协议"');
+                return false;
+            }
+            delete data._password;
+            delete data.agree;
+            delete data.message_verify_code;
+
+            if (command_user) {
+                data.command_id = command_user;
+            }
+            $this.addClass('disabled');
+            $.ajax({
+                url: '/portal/customer/seller/register.html',
+                method: 'get',
+                data: data,
+                success: function () {
+                    success('注册成功，请登录！', function () {
+                        window.location.href = '/front/seller/login.html'
+                    });
+                },
+                error: function (message) {
+                    reason = message.getResponseHeader('X-Error-Description');
+                    reason = decodeURIComponent(reason);
+                    error(reason);
+                },
+                complete: function () {
+                    $this.removeClass('disabled');
+                }
+            })
+        })
+        // #end
+    })
+</script>
+
+<script>
+    // 动画
+    $(function () {
+        $("#header").addClass('tFixed');
+
+
+        // 产品服务
+        $('.banner-wrap .banner-menu a').on('mouseenter', function () {
+            var index = $(this).index();
+            // console.log(index);
+            $(this).addClass('active').siblings().removeClass('active');
+
+            $('.banner-wrap>ul>li').eq(index - 1).addClass('active').siblings().removeClass('active');
+            var colorIndex = $('.banner-wrap>ul>li').eq(index - 1).css('background-color');
+            // console.log(colorIndex)
+            $(' div.banner').css('backgroundColor', colorIndex);
+            // console.log("ok");
+        })
+    })
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
